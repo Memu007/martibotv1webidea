@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "build":  "react-scripts build",
+    "test":   "react-scripts test --watchAll=false",
+    "lint":   "eslint src --ext .js,.jsx"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -13,7 +14,8 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@testing-library/react": "^13.4.0",
-    "eslint": "^8.37.0"
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.4.2",
+    "eslint": "^8.56.0"
   }
 }
