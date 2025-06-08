@@ -1,17 +1,15 @@
-# Martí Hostel Bot
+# Martí - Asistente para Hostels
 
-Martí es un asistente inteligente para hostels que:
+**Estructura preparada para Codex**
 
-- Gestiona reservas y habitaciones desde un panel React.
-- Atiende consultas por WhatsApp con IA (Gemini).
-- Controla mercadería e inventario.
-- Permite reglas de respuesta automáticas.
-- Integra login, registro y prueba gratuita.
+- **src/index.js**: punto de entrada
+- **src/App.jsx**: componente principal con lógica de proveedor
+- **src/components/**: íconos, UI, modales, pages
+- **public/index.html**
 
-## Instalación
+## Tareas para Codex
+1. **Modularizar** componentes en `src/components`.
+2. **Agregar** tests en `src/__tests__`.
+3. **Revisar** y mejorar accesibilidad.
+4. **Optimizar** imports y estructura.
 
-```bash
-git clone https://github.com/tuUsuario/marti-hostel.git
-cd marti-hostel
-npm install
-npm start
