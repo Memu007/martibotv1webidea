@@ -1,26 +1,13 @@
-# Martí - Asistente para Hostels
+# Martí – Asistente IA para Hostels
 
-Este proyecto contiene un ejemplo de aplicación React para gestionar un hostel.
+> Demo React + Tailwind que centraliza reservas, habitaciones, stock y chat con huéspedes.
 
-## Estructura
-- **src/index.js**: punto de entrada
-- **src/App.jsx**: componente principal que envuelve la app en el proveedor
-- **src/AppContent.jsx**: componentes de la interfaz y lógica de páginas
-- **src/__tests__**: pruebas básicas con Jest
-- **public/index.html**: plantilla HTML
+## Instalación
 
-## Uso
-1. Instalar dependencias
-   ```bash
-   npm install
-   ```
-2. Iniciar modo desarrollo
-   ```bash
-   npm start
-   ```
-3. Ejecutar pruebas
-   ```bash
-   npm test
-   ```
+```bash
+git clone https://github.com/<TU_USUARIO>/marti-hostel.git
+cd marti-hostel
+npm install
+cp .env.example .env             # añadí tu REACT_APP_GEMINI_KEY
+npm start
 
-¡Contribuciones y mejoras son bienvenidas!
