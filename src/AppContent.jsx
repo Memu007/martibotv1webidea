@@ -785,4 +785,10 @@ function AppContent() {
 }
 
 // El componente App ahora solo envuelve todo en el Provider.
-export { AppProvider, useAppContext, AppContent };
+export default function App() {
+    return (
+        <AppProvider>
+            <AppContent />
+        </AppProvider>
+    );
+}
