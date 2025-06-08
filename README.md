@@ -1,15 +1,26 @@
 # Martí - Asistente para Hostels
 
-**Estructura preparada para Codex**
+Este proyecto contiene un ejemplo de aplicación React para gestionar un hostel.
 
+## Estructura
 - **src/index.js**: punto de entrada
-- **src/App.jsx**: componente principal con lógica de proveedor
-- **src/components/**: íconos, UI, modales, pages
-- **public/index.html**
+- **src/App.jsx**: componente principal que envuelve la app en el proveedor
+- **src/AppContent.jsx**: componentes de la interfaz y lógica de páginas
+- **src/__tests__**: pruebas básicas con Jest
+- **public/index.html**: plantilla HTML
 
-## Tareas para Codex
-1. **Modularizar** componentes en `src/components`.
-2. **Agregar** tests en `src/__tests__`.
-3. **Revisar** y mejorar accesibilidad.
-4. **Optimizar** imports y estructura.
+## Uso
+1. Instalar dependencias
+   ```bash
+   npm install
+   ```
+2. Iniciar modo desarrollo
+   ```bash
+   npm start
+   ```
+3. Ejecutar pruebas
+   ```bash
+   npm test
+   ```
 
+¡Contribuciones y mejoras son bienvenidas!
